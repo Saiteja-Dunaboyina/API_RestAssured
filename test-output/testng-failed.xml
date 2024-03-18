@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:\Users\jyothi.dunaboyina\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\apitesting(failed)">
+    <classes>
+      <class name="com.restassured.test.APIUserTesting">
+        <methods>
+          <include name="gettingUserByUsername"/>
+          <include name="deleteUserByUsername"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="endReport"/>
+          <include name="setupData"/>
+          <include name="creatingUser"/>
+          <include name="updateUserByUsername"/>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.restassured.test.APIUserTesting -->
+      <class name="com.restassured.test.APIBookingTesting">
+        <methods>
+          <include name="deleteBooking"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="createBooking"/>
+          <include name="getBooking"/>
+          <include name="setupData"/>
+          <include name="getToken"/>
+          <include name="updateBooking"/>
+          <include name="getResult"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.restassured.test.APIBookingTesting -->
+    </classes>
+  </test> <!-- C:\Users\jyothi.dunaboyina\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\apitesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->

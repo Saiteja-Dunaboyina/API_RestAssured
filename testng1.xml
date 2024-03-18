@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test verbose="2" preserve-order="true" name="APITesting">
+    <classes>
+      <class name="com.restassured.test.ReqResAPITesting">
+		  <methods>
+			  <include name="creatingUser"></include>
+			  <include name="gettingAllUsers"></include>
+			  <include name="gettingUserByUserId"></include>
+			  <include name="updateUserByUserId"></include>
+			  <include name="deleteUserByUserId"></include>
+		  </methods>
+	  </class>
+      <class name="com.restassured.test.APIBookingTesting">
+		  <methods>
+			  <include name="getToken"></include>
+			  <include name="createBooking"></include>
+			  <include name="getBooking"></include>
+			  <include name="updateBooking"></include>
+			  <include name="deleteBooking"></include>
+		  </methods>
+	  </class>
+      <class name="com.restassured.test.APIUserTesting">
+		  <methods>
+			  <include name="creatingUser"></include>
+			  <include name="gettingUserByUsername"></include>
+			  <include name="updateUserByUsername"></include>
+			  <include name="deleteUserByUsername"></include>
+		  </methods>
+	  </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
